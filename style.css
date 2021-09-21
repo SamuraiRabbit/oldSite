@@ -1,0 +1,63 @@
+*       {   box-sizing: border-box;}
+
+body    {   background-color: #0b0c10;
+            color: #c5c6c7;
+            font-family: 'Roboto', sans-serif; }
+
+nav ul  {   list-style: none;
+            text-align: center;
+            font-size: 120%;
+            font-family: 'Chivo', sans-serif ; }
+
+nav li  {   display: inline-block;
+            margin: 5px; }
+
+nav a   {   text-decoration: none;
+            padding: 10px;
+            display: inline;
+            border-radius: 10px; }
+
+nav a:link		{ color: #c5c6c7; }
+nav a:visited 	{ color: #45a29e; }
+nav a:hover		{ color: #45a29e;
+                  background-color: #1f2833; }
+
+main    {   font-size: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+
+h2      {   font-size: 150%;
+            color: #66fcf1;
+            text-align: center;
+            font-family: 'Chivo', sans-serif;
+            padding: 10px; }
+
+
+footer  {   font-style: italic;
+            font-size: 70%; 
+            text-align: center;
+            padding: 20px; 
+            clear: both; }    
+
+
+.header {   font-size: 200%;
+            color: #66fcf1;
+            text-align: center;
+            font-family: 'Chivo', sans-serif;
+            padding: 20px;
+            background-color: #1f2833;
+            margin: 20px;
+            border-radius: 10px; }
+
+.content-box {  display: block; 
+                background-color: #1f2833;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 10px; }
+
+/* Colour Pallete:
+background colour: #0b0c10; 
+block background: #1f2833;
+body text colour: #c5c6c7;
+header colour: #66fcf1;
+icon/border colour: #45a29e; */
