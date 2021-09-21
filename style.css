@@ -89,9 +89,8 @@ img {   border: solid 2px #45a29e;
     justify-items: center;
 }
 
-
 #portrait {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 #portrait-box {
