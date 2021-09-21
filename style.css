@@ -1,59 +1,102 @@
-*       {   box-sizing: border-box;}
+/* Universal Styles */
 
-body    {   background-color: #0b0c10;
-            color: #c5c6c7;
-            font-family: 'Roboto', sans-serif; }
+* { box-sizing: border-box; 
+}
 
-nav ul  {   list-style: none;
-            text-align: center;
-            font-size: 120%;
-            font-family: 'Chivo', sans-serif ; }
-
-nav li  {   display: inline-block;
-            margin: 5px; }
-
-nav a   {   text-decoration: none;
-            padding: 10px;
-            display: inline;
-            border-radius: 10px; }
-
-nav a:link		{ color: #c5c6c7; }
-nav a:visited 	{ color: #45a29e; }
-nav a:hover		{ color: #45a29e;
-                  background-color: #1f2833; }
-
-main    {   font-size: 100%;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
-
-h2      {   font-size: 150%;
-            color: #66fcf1;
-            text-align: center;
-            font-family: 'Chivo', sans-serif;
-            padding: 10px; }
-
-
-footer  {   font-style: italic;
-            font-size: 70%; 
-            text-align: center;
-            padding: 20px; 
-            clear: both; }    
-
-
-.header {   font-size: 200%;
+body {  background-color: #0b0c10;
+        color: #c5c6c7;
+        font-family: 'Roboto', sans-serif; }header {   font-size: 200%;
             color: #66fcf1;
             text-align: center;
             font-family: 'Chivo', sans-serif;
             padding: 20px;
             background-color: #1f2833;
             margin: 20px;
-            border-radius: 10px; }
+            border-radius: 10px; 
+}
+        
+nav ul  {   list-style: none;
+            text-align: center;
+            font-size: 120%;
+            font-family: 'Chivo', sans-serif; 
+}
+
+nav li  {   display: inline-block;
+            margin: 5px; 
+}
+
+nav a   {   text-decoration: none;
+            padding: 10px;
+            display: inline;
+            border-radius: 10px; 
+}
+
+nav a:link		{ color: #c5c6c7; 
+}
+nav a:visited 	{ color: #45a29e; 
+}
+nav a:hover		{ color: #45a29e;
+                  background-color: #1f2833; 
+}
+
+h2  {   font-size: 150%;
+        color: #66fcf1;
+        text-align: center;
+        font-family: 'Chivo', sans-serif;
+        padding: 10px; 
+}
+
+footer  {   font-style: italic;
+            font-size: 70%; 
+            text-align: right;
+            padding: 20px; 
+            clear: both; 
+}    
+
+img {   border: solid 2px #45a29e;
+        border-radius: 10px; 
+}
+
+.grid { font-size: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        justify-items: space-around;       
+}
 
 .content-box {  display: block; 
                 background-color: #1f2833;
                 padding: 20px;
                 margin: 10px;
-                border-radius: 10px; }
+                border-radius: 10px; 
+}
+
+/* Specific Styles */
+
+.skill-icon {
+    max-width: 100px;
+}
+
+.skill-box {
+    max-width: 150px;   
+    text-align: center;
+}
+
+.skill-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0.5em;
+    margin: 0.5em;;
+    grid-column-gap: 1em;;
+    justify-items: center;
+}
+
+
+#portrait {
+    max-width: 500px;
+}
+
+#portrait-box {
+    text-align: center;
+}
 
 /* Colour Pallete:
 background colour: #0b0c10; 

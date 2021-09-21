@@ -9,36 +9,80 @@
 	<title>Christian Doyle - Devloper Portfolio</title>
 </head>
 <body>
-	<header class="header">
+	<header>
 		<h1>Christian Doyle - Developer Portfolio</h1>
 	</header>
 
 	<nav>
 		<ul>
-			<li><a>Home</a></li>
-			<li><a>Other Skills</a></li>
-			<li><a>CV</a></li>
-			<li><a>Contact</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 
 	<main>
-		<div class="content-box">
-			<h2>Web Development:<br>HTML5, CSS3 & JavaScript</h2>
-			<p>I made this site using HTML and CSS after completing the HTML5 and CSS3 Fundamentals Course through the IT Career Switch Coding Traineeship. I have just started the JavaScript Essentials Course and will be adding some extra features and functionality to this site once I've expanded my knowledge in this area.</p>
-		</div>
+		<h2>About Me</h2>
+		<section id="bio" class="grid">
+			<article class="content-box">
+				<p>This is where the blurb about me will live. It will probably be longer then this.</p>
+			</article>
+			<article id="portrait-box" class="content-box">
+				<img id="portrait" src="images/profile.jpg">				
+			</article>
+		</section>
 
-		<div class="content-box">
-			<h2>Game Development:<br>C#</h2>
-			<p>I have created a few mini games using C# and Unity. I have completed the Unity Essentials Badge and I'm also working on a couple of more ambitious game projects in my spare time. You can play <em>Vector Blaster</em> here:(ATTACH A WEBGL LINK TO VECTOR BLASTER HERE!)</em></p>
-		</div>
-
-		<div class="content-box">
-			<h2>Software Development:<br> Python</h2>
-			<p>I will soon be studying the Introduction to Python course and add a simple application to this section of the site when I am done. Probably a dice-roller for polyhedral dice used in RPGs.</p>
-		</div>
+		<h2>Skills</h2>
+		<section id="skills" class="grid skill-grid">
+			<article class="content-box skill-box">
+				<img class="skill-icon"src="images/html5.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/css3.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/javascript.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/jquery.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/node-js.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/react.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/redux.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/sql.jpg">
+			</article>	
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/php.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/java.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/csharp.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/github.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/python.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/unity.png">
+			</article>
+			<article class="content-box skill-box">
+				<img class="skill-icon" src="images/premiere-pro.png">
+			</article>		
+		</section>
+		
 	</main>
 
-	<footer class="footer">Made in Manchester - Copyright&copy; 2021</footer>
+	<footer>Made in Manchester - Copyright&copy; 2021</footer>
 </body>
 </html>
