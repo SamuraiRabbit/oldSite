@@ -1,11 +1,15 @@
 /* Universal Styles */
 
 * { box-sizing: border-box; 
+    margin: auto;
+    max-width: 1000px;
 }
 
 body {  background-color: #0b0c10;
         color: #c5c6c7;
-        font-family: 'Roboto', sans-serif; }header {   font-size: 200%;
+        font-family: 'Roboto', sans-serif; }
+
+header {   font-size: 200%;
             color: #66fcf1;
             text-align: center;
             font-family: 'Chivo', sans-serif;
@@ -31,10 +35,9 @@ nav a   {   text-decoration: none;
             border-radius: 10px; 
 }
 
-nav a:link		{ color: #c5c6c7; 
+nav a:link, a:visited { color: #45a29e; 
 }
-nav a:visited 	{ color: #45a29e; 
-}
+
 nav a:hover		{ color: #45a29e;
                   background-color: #1f2833; 
 }
@@ -44,6 +47,10 @@ h2  {   font-size: 150%;
         text-align: center;
         font-family: 'Chivo', sans-serif;
         padding: 10px; 
+}
+
+p { font-size: 18px;
+    line-height: 1.5em;
 }
 
 footer  {   font-style: italic;
@@ -59,7 +66,7 @@ img {   border: solid 2px #45a29e;
 
 .grid { font-size: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));     
         justify-items: space-around;       
 }
 
@@ -71,6 +78,15 @@ img {   border: solid 2px #45a29e;
 }
 
 /* Specific Styles */
+
+.bio-grid {
+    justify-items: center;
+}
+
+.bio-box {
+    max-width: 450px;
+    justify-content: center;
+}
 
 .skill-icon {
     max-width: 100px;
